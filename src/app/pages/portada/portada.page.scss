@@ -1,0 +1,36 @@
+
+body{
+  background-color: rgb(242, 242, 242);
+}
+
+.contenedor-flex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.seccion-superior {
+  flex: 0.3;
+}
+
+.seccion-media {
+  background-color: aliceblue;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex: 0.2;
+
+}
+strong{
+  color: black;
+}
+p{
+  color: black;
+}
+.seccion-inferior {
+  flex: 0.5;
+  margin-top: auto;
+  text-align: center;
+
+}
