@@ -1,0 +1,7 @@
+{
+  "name": "chilosmovil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
